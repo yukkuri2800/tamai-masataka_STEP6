@@ -1,0 +1,5 @@
+FROM php:8.2-cli
+RUN docker-php-source extract \
+	# do important things \
+	&& docker-php-source delete
+php:8.2.33-apache-trixie
